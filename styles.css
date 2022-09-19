@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: #273549;
+  width: 550px;
+  height: 550px;
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.top-section {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.generate,
+.random-pass {
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.generate {
+  margin-bottom: 2px;
+}
+
+.random-pass {
+  color: #10b981;
+  margin-top: 2px;
+}
+
+.sub-head {
+  margin: 0;
+}
+
+.hrule {
+  width: 100%;
+  margin: 50px 0;
+  border: 1px solid #2f3e53;
+}
+
+#gen-btn {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  width: 185px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#gen-btn:hover {
+  cursor: pointer;
+}
+
+.bottom-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#passwords-sect1,
+#passwords-sect2 {
+  background-color: #2f3e53;
+  width: 200px;
+  height: 35px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#passwords-sect1,
+#passwords-sect2:hover {
+  cursor: pointer;
+}
